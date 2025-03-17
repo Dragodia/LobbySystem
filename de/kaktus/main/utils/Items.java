@@ -41,34 +41,13 @@ public class Items {
         placeMeta.setDisplayName("§1");
         place.setItemMeta(placeMeta);
 
+        for (int i = 0; i < Main.inventory.getSize(); i++){
+            Main.inventory.setItem(i, place);
+        }
+        
         Main.inventory.setItem(10, smp);
         Main.inventory.setItem(13, spawn);
         Main.inventory.setItem(16, gg);
-
-        Main.inventory.setItem(0, place);
-        Main.inventory.setItem(1, place);
-        Main.inventory.setItem(2, place);
-        Main.inventory.setItem(3, place);
-        Main.inventory.setItem(4, place);
-        Main.inventory.setItem(5, place);
-        Main.inventory.setItem(6, place);
-        Main.inventory.setItem(7, place);
-        Main.inventory.setItem(8, place);
-        Main.inventory.setItem(9, place);
-        Main.inventory.setItem(11, place);
-        Main.inventory.setItem(14, place);
-        Main.inventory.setItem(12, place);
-        Main.inventory.setItem(15, place);
-        Main.inventory.setItem(17, place);
-        Main.inventory.setItem(18, place);
-        Main.inventory.setItem(19, place);
-        Main.inventory.setItem(20, place);
-        Main.inventory.setItem(21, place);
-        Main.inventory.setItem(22, place);
-        Main.inventory.setItem(23, place);
-        Main.inventory.setItem(24, place);
-        Main.inventory.setItem(25, place);
-        Main.inventory.setItem(26, place);
 
 
     }
